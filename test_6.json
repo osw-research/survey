@@ -1,0 +1,219 @@
+{
+  "survey_name": "Daily Wellbeing",
+  "survey_id": "daily_wellbeing",
+  "survey": [
+    {
+      "question": "Out of 10, how did you feel today?",
+      "question_id": "q_mood_rating",
+      "response_options": [
+        {
+          "text": "1",
+          "icon": "number_1",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "2",
+          "icon": "number_2",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "3",
+          "icon": "number_3",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "4",
+          "icon": "number_4",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "5",
+          "icon": "number_5",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "6",
+          "icon": "number_6",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "7",
+          "icon": "number_7",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "8",
+          "icon": "number_8",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "9",
+          "icon": "number_9",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        },
+        {
+          "text": "10",
+          "icon": "number_10",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_anxiety_level"
+        }
+      ]
+    },
+    {
+      "question": "Any anxiety?",
+      "question_id": "q_anxiety_level",
+      "response_options": [
+        {
+          "text": "High",
+          "icon": "face_sad",
+          "icon_background_color": "#E65C5C",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_caffeine"
+        },
+        {
+          "text": "Moderate",
+          "icon": "face_neutral",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_caffeine"
+        },
+        {
+          "text": "Little",
+          "icon": "face_smile",
+          "icon_background_color": "#4CAF50",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_caffeine"
+        },
+        {
+          "text": "None",
+          "icon": "face_happy",
+          "icon_background_color": "#4CAF50",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_caffeine"
+        }
+      ]
+    },
+    {
+      "question": "Caffeine after 13:00?",
+      "question_id": "q_caffeine",
+      "response_options": [
+        {
+          "text": "Yes",
+          "icon": "drink_hot",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_strength"
+        },
+        {
+          "text": "No",
+          "icon": "drink_water",
+          "icon_background_color": "#8BC34A",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_strength"
+        }
+      ]
+    },
+    {
+      "question": "Strength exercises today?",
+      "question_id": "q_strength",
+      "response_options": [
+        {
+          "text": "Yes",
+          "icon": "gym_dumbbell",
+          "icon_background_color": "#4CAF50",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_meat"
+        },
+        {
+          "text": "No",
+          "icon": "gym_cross",
+          "icon_background_color": "#E65C5C",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_meat"
+        }
+      ]
+    },
+    {
+      "question": "Did you eat meat?",
+      "question_id": "q_meat",
+      "response_options": [
+        {
+          "text": "Meat",
+          "icon": "food_meat",
+          "icon_background_color": "#E65C5C",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_learning"
+        },
+        {
+          "text": "Fish",
+          "icon": "food_fish",
+          "icon_background_color": "#2196F3",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_learning"
+        },
+        {
+          "text": "None",
+          "icon": "food_salad",
+          "icon_background_color": "#4CAF50",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_learning"
+        }
+      ]
+    },
+    {
+      "question": "What did you learn today?",
+      "question_id": "q_learning",
+      "response_options": [
+        {
+          "text": "Answer",
+          "icon": "text_bubble",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "free_text": true,
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}

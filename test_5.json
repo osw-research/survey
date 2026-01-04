@@ -1,0 +1,152 @@
+{
+  "survey_name": "Test Survey 3",
+  "survey_id": "test_survey_3",
+  "survey": [
+    {
+      "question": "Out of 10, how did you feel today?",
+      "question_id": "q_mood_rating",
+      "response_options": [
+        {
+          "text": "1",
+          "icon": "number_1",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "2",
+          "icon": "number_2",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "3",
+          "icon": "number_3",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "4",
+          "icon": "number_4",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "5",
+          "icon": "number_5",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "6",
+          "icon": "number_6",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "7",
+          "icon": "number_7",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "8",
+          "icon": "number_8",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "9",
+          "icon": "number_9",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "10",
+          "icon": "number_10",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        }
+      ]
+    },
+    {
+      "question": "Where are you?",
+      "question_id": "q_location",
+      "response_options": [
+        {
+          "text": "Outdoor",
+          "icon": "person_walking",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing"
+        },
+        {
+          "text": "Indoor",
+          "icon": "person_laptop",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing"
+        }
+      ]
+    },
+    {
+      "question": "What clothes are you wearing?",
+      "question_id": "q_clothing",
+      "response_options": [
+        {
+          "text": "Very light",
+          "icon": "clothes_shirt_sleeveless",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Light",
+          "icon": "clothes_shirt_shorts",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Medium",
+          "icon": "clothes_shirt_pants",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Heavy",
+          "icon": "clothes_pullover",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}

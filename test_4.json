@@ -1,0 +1,75 @@
+{
+  "survey_name": "Test Survey 3",
+  "survey_id": "test_survey_3",
+  "survey": [
+    {
+      "question": "How do you feel right now?",
+      "question_id": "q_mood_rating",
+      "answer_format": "scale",
+      "min_label": "Very bad",
+      "max_label": "Very good",
+      "min_value": 1,
+      "max_value": 10
+    },
+    {
+      "question": "Where are you?",
+      "question_id": "q_location",
+      "response_options": [
+        {
+          "text": "Outdoor",
+          "icon": "person_walking",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing"
+        },
+        {
+          "text": "Indoor",
+          "icon": "person_laptop",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing"
+        }
+      ]
+    },
+    {
+      "question": "What clothes are you wearing?",
+      "question_id": "q_clothing",
+      "response_options": [
+        {
+          "text": "Very light",
+          "icon": "clothes_shirt_sleeveless",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Light",
+          "icon": "clothes_shirt_shorts",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Medium",
+          "icon": "clothes_shirt_pants",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Heavy",
+          "icon": "clothes_pullover",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
